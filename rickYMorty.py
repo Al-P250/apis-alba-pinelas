@@ -1,7 +1,7 @@
 import random
 import requests
 
-url="http://rickandmortyapi.com/api/character/"
+url="https://rickandmortyapi.com/api/character/"
 pAl=random.randint(1,826)
 
 webContent=requests.get(f"{url}{pAl}")
